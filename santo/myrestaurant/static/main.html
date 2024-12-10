@@ -1,0 +1,235 @@
+<html>
+<head>
+    <title>My Restaurant</title>
+    <style>
+        body {
+            width: 100%;    
+            background-image: url(bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin:0; 
+            overflow-y: scroll;
+        }
+        .top{
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: rgb(224, 224, 152);
+            width: 100%;
+            
+        }
+        .bottom{
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: rgba(216, 216, 197, 0.928);
+            width: 100%;
+        }
+
+        .main {
+            
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: flex-start;
+            position: relative; 
+            top: 10px; 
+            width: 100%; 
+        }
+
+        .image {
+            width: 200px; 
+            height: auto;
+        }
+        .image1{
+            height: 100px;
+        }
+        .logo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            color: rgba(25, 19, 85, 0.667); 
+            text-align: center; 
+            margin: 10px 0; 
+        }
+        .hr{
+            width: 100%;
+        }
+        .hr2{
+            width: 100px;
+        }
+        .sub{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            margin: auto;
+            align-items: center;
+            
+        }
+        .root{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .rootchild{
+            display: flex; 
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; 
+            gap: 20px;
+        }
+        .rootchild a{
+            text-decoration:none;
+            color: aliceblue;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+            margin:0 15px
+            
+        }
+        .box{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            border: 4px solid rgb(255, 255, 255); 
+            padding: 10px;          
+            width: 900px;
+            height: 200px;  
+            border-radius: 20px;         
+            text-align: center;
+            background-image: url(front.jpg);
+        }
+        .box h2{
+            font-size: 50;
+        }
+        .box h3{
+            background-color: rgba(0, 0, 0, 0.308);
+            font-family:'Courier New', Courier, monospace;
+            
+        }
+        .box2{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            border: 4px solid rgb(255, 255, 255); 
+            padding: 10px;      
+            width: 300;
+            height: 700px;  
+            border-radius: 20px;         
+            text-align: justify;
+            background-color: rgba(0, 0, 0, 0.522);
+            
+            
+        }
+        .box2 a{
+            color: aliceblue;
+            
+        }
+        .lowerbox{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 10%;
+            gap: 40px;
+        }
+        .i{
+            height:200;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <img class="image" src="lo.png" alt="Restaurant Logo">
+            <h2 class="logo">Liha Otnas</h2>
+            <h3 class="sub">A Premium Restaurant</h3>
+            <hr class="hr">
+            
+        </div>
+    
+        
+        <div class="root">
+            <div class="rootchild">
+                <a href="main.html">HOME </a>
+                <a href="menu1.html">MENU </a>
+                <a href="admini.html">ADMINISTRATION</a>
+                <a href="contact.html">CONTACT US</a>
+            </div>
+        
+        </div>
+        <div class="box">  
+            <h2>19% off This Christmas</h2>
+            <h3>for orders more than 1000Rs<br>and get exciting spot offers</h3>
+            <h2></h2>
+        </div>
+        <div class="lowerbox">
+            <div class="box2"> 
+                
+                <h2>Our Dish</h2>
+                <img src="ChineseFood.webp" class="i">
+                
+                <p><br>"Welcome to Liha Otnas, where taste meets elegance!
+                     Our dishes are crafted with passion, blending the finest
+                      ingredients to create unforgettable flavors. From classic
+                       favorites to signature creations, every plate is a masterpiece. 
+                       Experience the warmth of premium dining, where every meal tells
+                        a story. Taste perfection, only at Liha Otnas!". "At Liha Otnas
+                        , we redefine fine dining with a blend of tradition and
+                         innovation. Our chefs meticulously prepare each dish to offer 
+                         a symphony of flavors that cater to every palate. Whether it’s 
+                         a family gathering or a romantic evening, enjoy a dining 
+                         experience that’s as memorable as the meals themselves."<br>
+                         <a href="">See Our Menu</a></p>
+                
+            </div>
+
+            <div class="box2"> 
+                
+                <h2>Book a Table</h2>
+                <img src="tabel.jpg" class="i">
+                <br>
+                <p><br>"Reserve your table at Liha Otnas and indulge in a premium dining 
+                    experience like no other. Whether you're celebrating a special
+                     occasion, enjoying a family dinner, or planning a romantic evening,
+                      our warm ambiance and exquisite flavors set the stage for 
+                      unforgettable moments. Booking a table ensures you skip the wait 
+                      and savor your favorite dishes in comfort. From personalized service 
+                      to our signature culinary creations, we prioritize your satisfaction 
+                      in every detail. Don’t miss out on an exceptional dining 
+                      journey—secure your reservation at Liha Otnas today and let us make
+                       your visit truly extraordinary!"<br>
+                       <a href="">Book a Table Now!</a></p>
+            </div>
+            <div class="box2"> 
+                
+                <h2>Opening Hours</h2>
+                <img src="servent.jpg" class="i">
+                <p>We’re here to serve you with exceptional dining experiences every day!
+
+                    <ul><li>Monday to Friday:<ul><li>Opening: 11:00 AM</li>
+                        <li>Closing: 10:00 PM</li></li></ul>
+                    
+                    
+                    <li>Saturday and Sunday:<ul><li>Opening: 10:00 AM</li>
+                        <li>Closing: 11:00 PM</li></ul></li>
+                    
+                    </ul>
+                    Step into Liha Otnas for a delightful blend of flavors and a
+                     welcoming ambiance. Whether it’s a casual lunch, a family dinner,
+                      or a special celebration, our team is ready to make your visit 
+                      unforgettable. Reserve your spot today and let us serve you with
+                       passion and perfection!</p>
+            </div>
+        </div>
+        <div class="bottom">
+            
+            <img class="image1" src="lo.png" alt="Restaurant Logo">
+            <hr class="hr2">
+            <h3 class="sub">A Premium Restaurant</h3>
+            
+            <br>
+            <h3 class="sub">Designed And Developed by: A AHIL SANTO</h3>
+        </div>
+    </div>
+</body>
+</html>
