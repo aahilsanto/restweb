@@ -826,21 +826,21 @@ Main
 ![alt text](<Screenshot (44).png>)
 
 
-![alt text](web-ex7main_page-0001.jpg)
+![alt text](main.jpg)
 
 Admin
 
 ![alt text](<Screenshot (46).png>)
 
 
-![alt text](web-ex7admini_page-0001.jpg)
+![alt text](admin.jpg)
 
 Menu
 
 ![alt text](<Screenshot (47).png>)
 
 
-![alt text](web-ex7menu_page-0001.jpg)
+![alt text](menu.jpg)
 
 Contact Us
 
